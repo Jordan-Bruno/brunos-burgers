@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bruno's Burgers - Menu</title>
+    <meta name="description"
+        content="Online menu for Bruno's Burgers. Order your favorite smash burgers, sides, and drinks.">
+    <!-- Modern Typography: Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Top Navigation / Header area -->
+    <header class="app-header">
+        <div class="header-container">
+            <div class="logo">🍔 Bruno's Burgers</div>
+            <div class="delivery-info">
+                <span class="delivery-time">15 - 25 min</span>
+                <span class="delivery-fee">£2.49 delivery</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Banner -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Bruno's Burgers</h1>
+            <p>Locally sourced, smashed to perfection.</p>
+        </div>
+    </section>
+
+    <!-- Main Menu Area -->
+    <main class="menu-container">
+
+        <!-- Burgers Category -->
+        <section class="menu-category">
+            <h2 class="category-title">Burgers</h2>
+
+            <div class="menu-grid">
+                <!-- Cheeseburger -->
+                <article class="menu-item card">
+                    <div class="item-content">
+                        <h3 class="item-name">Cheeseburger</h3>
+                        <p class="item-desc">Classic smash patty, American cheese, house sauce, pickles.</p>
+                        <span class="item-price">£5.00</span>
+                    </div>
+                    <div class="item-image-wrapper">
+                        <img src="images/cheeseburger.png" alt="Cheeseburger" class="item-image">
+                    </div>
+                </article>
+
+                <!-- Chicken Burger -->
+                <article class="menu-item card">
+                    <div class="item-content">
+                        <h3 class="item-name">Chicken Burger</h3>
+                        <p class="item-desc">Crispy fried chicken breast, mayo, shredded lettuce.</p>
+                        <span class="item-price">£5.50</span>
+                    </div>
+                    <div class="item-image-wrapper">
+                        <img src="images/chicken_burger.png" alt="Chicken Burger" class="item-image">
+                    </div>
+                </article>
+
+                <!-- Veggie Burger -->
+                <article class="menu-item card">
+                    <div class="item-content">
+                        <h3 class="item-name">Veggie Burger</h3>
+                        <p class="item-desc">Plant-based patty, vegan cheese, house sauce, fresh tomato.</p>
+                        <span class="item-price">£5.00</span>
+                    </div>
+                    <div class="item-image-wrapper">
+                        <img src="images/veggie_burger.png" alt="Veggie Burger" class="item-image">
+                    </div>
+                </article>
+
+                <!-- Double Cheeseburger -->
+                <article class="menu-item card">
+                    <div class="item-content">
+                        <h3 class="item-name">Double Cheeseburger</h3>
+                        <p class="item-desc">Two smash patties, double American cheese, house sauce, pickles.</p>
+                        <span class="item-price">£6.50</span>
+                    </div>
+                    <div class="item-image-wrapper">
+                        <img src="images/double_cheeseburger.png" alt="Double Cheeseburger" class="item-image">
+                    </div>
+                </article>
+            </div>
+
+            <!-- Modifiers / Customization Info Block (For students to see options) -->
+            <div class="customization-info card">
+                <div class="customization-header">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 20h9"></path>
+                        <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
+                    </svg>
+                    <h4>Burger Customization Options</h4>
+                </div>
+                <div class="customization-grid">
+                    <div class="customization-group">
+                        <h5>Bread Choice (Required)</h5>
+                        <ul>
+                            <li>White Bun</li>
+                            <li>Brown Bun</li>
+                        </ul>
+                    </div>
+                    <div class="customization-group">
+                        <h5>Add-ons (Optional)</h5>
+                        <ul>
+                            <li>Cheese <span>+£0.50</span></li>
+                            <li>Bacon <span>+£1.00</span></li>
+                            <li>Extra Patty <span>+£1.50</span></li>
+                        </ul>
+                    </div>
+                    <div class="customization-group">
+                        <h5>Remove Items (Free)</h5>
+                        <ul>
+                            <li>No Onions</li>
+                            <li>No Sauce</li>
+                            <li>No Tomatoes</li>
+                            <li>No Lettuce</li>
+                            <li>No Cheese</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sides Category -->
+        <section class="menu-category">
+            <h2 class="category-title">Sides</h2>
+            <div class="menu-grid">
+                <!-- Fries -->
+                <article class="menu-item card">
+                    <div class="item-content">
+                        <h3 class="item-name">Fries</h3>
+                        <p class="item-desc">Crispy golden fries, lightly salted.</p>
+                        <span class="item-price">£2.50</span>
+                    </div>
+                    <div class="item-image-wrapper">
+                        <img src="images/side_fries.png" alt="Fries" class="item-image">
+                    </div>
+                </article>
+
+                <!-- Loaded Fries -->
+                <article class="menu-item card">
+                    <div class="item-content">
+                        <h3 class="item-name">Loaded Fries</h3>
+                        <p class="item-desc">Crispy fries topped with cheese sauce, bacon bits, and jalapeños.</p>
+                        <span class="item-price">£3.50</span>
+                    </div>
+                    <div class="item-image-wrapper">
+                        <img src="images/loaded_fries.png" alt="Loaded Fries" class="item-image">
+                    </div>
+                </article>
+
+                <!-- Onion Rings -->
+                <article class="menu-item card">
+                    <div class="item-content">
+                        <h3 class="item-name">Onion Rings</h3>
+                        <p class="item-desc">Beer-battered, thick-cut onion rings.</p>
+                        <span class="item-price">£3.00</span>
+                    </div>
+                    <div class="item-image-wrapper">
+                        <img src="images/onion_rings.png" alt="Onion Rings" class="item-image">
+                    </div>
+                </article>
+
+                <!-- Side Salad -->
+                <article class="menu-item card">
+                    <div class="item-content">
+                        <h3 class="item-name">Side Salad</h3>
+                        <p class="item-desc">Fresh mixed greens, cherry tomatoes, cucumbers with house vinaigrette.</p>
+                        <span class="item-price">£2.00</span>
+                    </div>
+                    <div class="item-image-wrapper">
+                        <img src="images/side_salad.png" alt="Side Salad" class="item-image">
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Drinks Category -->
+        <section class="menu-category">
+            <h2 class="category-title">Drinks</h2>
+            <div class="menu-grid">
+                <!-- Cola -->
+                <article class="menu-item card">
+                    <div class="item-content">
+                        <h3 class="item-name">Cola</h3>
+                        <p class="item-desc">330ml can.</p>
+                        <span class="item-price">£1.50</span>
+                    </div>
+                    <div class="item-image-wrapper">
+                        <img src="images/cola_can.png" alt="Cola" class="item-image">
+                    </div>
+                </article>
+
+                <!-- Lemonade -->
+                <article class="menu-item card">
+                    <div class="item-content">
+                        <h3 class="item-name">Lemonade</h3>
+                        <p class="item-desc">Sparkling lemon, 330ml can.</p>
+                        <span class="item-price">£1.50</span>
+                    </div>
+                    <div class="item-image-wrapper">
+                        <img src="images/lemonade_can.png" alt="Lemonade" class="item-image">
+                    </div>
+                </article>
+
+                <!-- Water -->
+                <article class="menu-item card">
+                    <div class="item-content">
+                        <h3 class="item-name">Water</h3>
+                        <p class="item-desc">Still mineral water, 500ml.</p>
+                        <span class="item-price">£1.00</span>
+                    </div>
+                    <div class="item-image-wrapper">
+                        <img src="images/water_bottle.png" alt="Water" class="item-image">
+                    </div>
+                </article>
+
+                <!-- Sparkling Orange -->
+                <article class="menu-item card">
+                    <div class="item-content">
+                        <h3 class="item-name">Sparkling Orange</h3>
+                        <p class="item-desc">Sparkling orange, 330ml can.</p>
+                        <span class="item-price">£1.50</span>
+                    </div>
+                    <div class="item-image-wrapper">
+                        <img src="images/orange_can.png" alt="Sparkling Orange" class="item-image">
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Milkshakes Category -->
+        <section class="menu-category">
+            <h2 class="category-title">Milkshakes</h2>
+            <div class="menu-grid">
+                <!-- Vanilla Milkshake -->
+                <article class="menu-item card">
+                    <div class="item-content">
+                        <h3 class="item-name">Vanilla Milkshake</h3>
+                        <p class="item-desc">Thick, creamy vanilla shake.</p>
+                        <span class="item-price">£2.50</span>
+                    </div>
+                    <div class="item-image-wrapper">
+                        <img src="images/vanilla_milkshake.png" alt="Vanilla Milkshake" class="item-image">
+                    </div>
+                </article>
+
+                <!-- Chocolate Milkshake -->
+                <article class="menu-item card">
+                    <div class="item-content">
+                        <h3 class="item-name">Chocolate Milkshake</h3>
+                        <p class="item-desc">Rich, creamy chocolate shake.</p>
+                        <span class="item-price">£2.50</span>
+                    </div>
+                    <div class="item-image-wrapper">
+                        <img src="images/chocolate_milkshake.png" alt="Chocolate Milkshake" class="item-image">
+                    </div>
+                </article>
+
+                <!-- Strawberry Milkshake -->
+                <article class="menu-item card">
+                    <div class="item-content">
+                        <h3 class="item-name">Strawberry Milkshake</h3>
+                        <p class="item-desc">Sweet, creamy strawberry shake.</p>
+                        <span class="item-price">£2.50</span>
+                    </div>
+                    <div class="item-image-wrapper">
+                        <img src="images/strawberry_milkshake.png" alt="Strawberry Milkshake" class="item-image">
+                    </div>
+                </article>
+
+                <!-- Banana Milkshake -->
+                <article class="menu-item card">
+                    <div class="item-content">
+                        <h3 class="item-name">Banana Milkshake</h3>
+                        <p class="item-desc">Smooth, creamy banana shake.</p>
+                        <span class="item-price">£2.50</span>
+                    </div>
+                    <div class="item-image-wrapper">
+                        <img src="images/banana_milkshake.png" alt="Banana Milkshake" class="item-image">
+                    </div>
+                </article>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="app-footer">
+        <p>&copy; 2026 Bruno's Burgers. Designed for learning.</p>
+    </footer>
+</body>
+
+</html>
